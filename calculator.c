@@ -2,6 +2,7 @@
 
 float add(float a, float b);
 float sub(float a, float b);
+float mul(float a, float b);
 
 int main() {
     float num1, num2, result;
@@ -10,7 +11,7 @@ int main() {
     printf("=== Simple Calculator ===\n");
     printf("1. Add (Addition)\n");
     printf("2. Sub (Subtraction)\n");
-    print("3. Mul (Multiplication)\n");
+    printf("3. Mul (Multiplication)\n");
     
     printf("Pilih operasi (1-3): ");
     scanf("%d", &choice);
@@ -40,4 +41,8 @@ float add(float a, float b) {
 
 float sub(float a, float b) {
     return a - b;
+}
+
+float mul(float a, float b) {
+    return a * b;
 }
