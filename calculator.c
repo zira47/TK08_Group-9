@@ -28,6 +28,10 @@ int main() {
                 result = sub(num1, num2);
                 printf("Hasil pengurangan: %.2f\n", result);
                 break;
+            case 3:
+                result mul(num1, num2);
+                printf("Hasil perkalian: %.2f\n", result);
+                break;
             default:
                 printf("Pilihan tidak valid.\n");
         }   
