@@ -1,4 +1,8 @@
 #include <stdio.h>
+
+float add(float a, float b);
+float sub(float a, float b);
+
 int main() {
     float num1, num2, result;
     int choice;
@@ -25,6 +29,14 @@ int main() {
             default:
                 printf("Pilihan tidak valid.\n");
         }   
-
+    
     return 0;
+}
+
+float add(float a, float b) {
+    return a + b;
+}
+
+float sub(float a, float b) {
+    return a - b;
 }
