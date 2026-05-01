@@ -14,7 +14,7 @@ The calculator currently supports the following mathematical functions:
 ## Team Roles
 * **Nadzira Aqila Daviana - 2506548124 (Team Leader):** Setup repository, structured project files, and implemented the addition and subtraction function.
 * **Hillary Salendah - 2506533923 (Team Member):** Implemented the mul function.
-* **Chrysilla Azalea Pangkey - 2506550040 (Team Member):** Implemented the ... function.
+* **Chrysilla Azalea Pangkey - 2506550040 (Team Member):** Implemented the div function.
 
 ## How to Compile and Run
 1. Ensure you have a C compiler (like GCC) installed.
