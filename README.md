@@ -10,6 +10,11 @@ The calculator currently supports the following mathematical functions:
 * **Sub (Subtraction):** Computes the difference between two numbers.
 * **Mul (Multiplication):** Computes the product of two numbers.
 * **Div (Division):** Computes the quotient of two numbers (includes zero-division handling).
+  
+## Team Contribution
+* **Nadzira Aqila Daviana - 2506548124 (Team Leader):** Setup repository, structured project files, and implemented the addition and subtraction function.
+* **Hillary Salendah - 2506533923 (Team Member):** Implemented the mul function.
+* **Chrysilla Azalea Pangkey - 2506550040 (Team Member):** Implemented the ... function.
 
 ## How to Compile and Run
 1. Ensure you have a C compiler (like GCC) installed.
