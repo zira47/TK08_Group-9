@@ -2,6 +2,7 @@
 
 float add(float a, float b);
 float sub(float a, float b);
+float mul(float a, float b);
 
 int main() {
     float num1, num2, result;
@@ -10,8 +11,9 @@ int main() {
     printf("=== Simple Calculator ===\n");
     printf("1. Add (Addition)\n");
     printf("2. Sub (Subtraction)\n");
+    printf("3. Mul (Multiplication)\n");
     
-    printf("Pilih operasi (1-2): ");
+    printf("Pilih operasi (1-3): ");
     scanf("%d", &choice);
 
     printf("Masukkan dua angka (pisahkan dengan spasi): ");
@@ -26,6 +28,10 @@ int main() {
                 result = sub(num1, num2);
                 printf("Hasil pengurangan: %.2f\n", result);
                 break;
+            case 3:
+                result mul(num1, num2);
+                printf("Hasil perkalian: %.2f\n", result);
+                break;
             default:
                 printf("Pilihan tidak valid.\n");
         }   
@@ -39,4 +45,8 @@ float add(float a, float b) {
 
 float sub(float a, float b) {
     return a - b;
+}
+
+float mul(float a, float b) {
+    return a * b;
 }
