@@ -10,8 +10,9 @@ int main() {
     printf("=== Simple Calculator ===\n");
     printf("1. Add (Addition)\n");
     printf("2. Sub (Subtraction)\n");
+    print("3. Mul (Multiplication)\n");
     
-    printf("Pilih operasi (1-2): ");
+    printf("Pilih operasi (1-3): ");
     scanf("%d", &choice);
 
     printf("Masukkan dua angka (pisahkan dengan spasi): ");
