@@ -3,7 +3,9 @@
 - Make display text for mathematical operation selection
 - Make a function for addition and subtraction logic
 - Make switch case for mathematical operation selection
-* **Hillary Salendah - 2506533923 (Team Member):** 
+* **Hillary Salendah - 2506533923 (Team Member):**
+- Adding the multiplication (mul) function
+- Implemented the switch-case option for multiplication in the program
 Implemented the mul function.
 * **Chrysilla Azalea Pangkey - 2506550040 (Team Member):** 
 Implemented the ... function.
