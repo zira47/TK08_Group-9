@@ -13,7 +13,18 @@ int main() {
     printf("Masukkan dua angka (pisahkan dengan spasi): ");
     scanf("%f %f", &num1, &num2);
 
-    
+    switch (choice) {
+            case 1:
+                result = add(num1, num2);
+                printf("Hasil penambahan: %.2f\n", result);
+                break;
+            case 2:
+                result = sub(num1, num2);
+                printf("Hasil pengurangan: %.2f\n", result);
+                break;
+            default:
+                printf("Pilihan tidak valid.\n");
+        }   
 
     return 0;
 }
