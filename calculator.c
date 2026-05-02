@@ -56,3 +56,11 @@ float sub(float a, float b) {
 float mul(float a, float b) {
     return a * b;
 }
+
+float div(float a, float b) {
+    if (b == 0) {
+        printf("Error: tidak bisa dibagi 0\n");
+        return 0;
+    }
+    return a / b;
+}
